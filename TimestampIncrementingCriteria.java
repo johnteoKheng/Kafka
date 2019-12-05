@@ -335,16 +335,16 @@ public class TimestampIncrementingCriteria {
       coalesceTimestampColumns(builder);
       builder.append(" ASC");
     } else {
-      builder.append(" WHERE ");
+      builder.append(" WHERE ( ");
       int noOfCol = timestampColumns.size() - 1;
       for (int i = 0; i < timestampColumns.size(); i++) {
         builder.append(timestampColumns.get(i));
         builder.append(" >= ? AND ");
         builder.append(timestampColumns.get(i));
         if (i == noOfCol) {
-          builder.append(" < ? ORDER BY ");
+          builder.append(" < ? ) ORDER BY ");
         } else {
-          builder.append(" < ? OR ");
+          builder.append(" < ? ) OR ( ");
         }
       }
       builder.appendList().delimitedBy(",").of(timestampColumns);
