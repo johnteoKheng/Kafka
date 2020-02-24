@@ -301,14 +301,14 @@ public class TimestampIncrementingCriteria {
     // We should capture both id = 22 (an update) and id = 23 (a new row)
     builder.append(" WHERE ");
     coalesceTimestampColumns(builder);
-    builder.append(" < ? AND ((");
+    builder.append(" < to_date( ? ) AND ((");
     coalesceTimestampColumns(builder);
-    builder.append(" = ? AND ");
+    builder.append(" = to_date( ? ) AND ");
     builder.append(incrementingColumn);
     builder.append(" > ?");
     builder.append(") OR ");
     coalesceTimestampColumns(builder);
-    builder.append(" >= ?)");
+    builder.append(" >= to_date( ? )");
     builder.append(" ORDER BY ");
     coalesceTimestampColumns(builder);
     builder.append(",");
@@ -329,9 +329,9 @@ public class TimestampIncrementingCriteria {
     if (timestampColumns.size() == 1) {
       builder.append(" WHERE ");
       coalesceTimestampColumns(builder);
-      builder.append(" >= ? AND ");
+      builder.append(" >= to_date ( ? ) AND ");
       coalesceTimestampColumns(builder);
-      builder.append(" < ? ORDER BY ");
+      builder.append(" <= to_date( ? ) ORDER BY ");
       coalesceTimestampColumns(builder);
       builder.append(" ASC");
     } else {
@@ -339,12 +339,12 @@ public class TimestampIncrementingCriteria {
       int noOfCol = timestampColumns.size() - 1;
       for (int i = 0; i < timestampColumns.size(); i++) {
         builder.append(timestampColumns.get(i));
-        builder.append(" >= ? AND ");
+        builder.append(" >= to_date( ? ) AND ");
         builder.append(timestampColumns.get(i));
         if (i == noOfCol) {
-          builder.append(" < ? ) ORDER BY ");
+          builder.append(" <= to_date( ? ) ORDER BY ");
         } else {
-          builder.append(" < ? ) OR ( ");
+          builder.append(" <= to_date( ? ) OR ( ");
         }
       }
       builder.appendList().delimitedBy(",").of(timestampColumns);
