@@ -1,0 +1,285 @@
+----------------------------------------------------------------
+Wed Dec 04 17:35:42 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:35:49 SGT 2019:
+Shutting down instance a816c00e-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:35:49 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance f55fc0a6-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:35:57 SGT 2019:
+Shutting down instance f55fc0a6-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:35:58 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance 140d4147-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:36:05 SGT 2019:
+Shutting down instance 140d4147-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:36:05 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance 366f81ed-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:36:13 SGT 2019:
+Shutting down instance 366f81ed-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:36:13 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance 2c5f8294-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:36:20 SGT 2019:
+Shutting down instance 2c5f8294-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:36:20 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance 14bd433a-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:36:26 SGT 2019:
+Shutting down instance 14bd433a-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:36:27 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance da8e43d2-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:36:33 SGT 2019:
+Shutting down instance da8e43d2-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:36:33 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance 18e6c473-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:36:39 SGT 2019:
+Shutting down instance 18e6c473-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:36:39 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance 3eeb0519-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:36:46 SGT 2019:
+Shutting down instance 3eeb0519-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:36:47 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance 0b5d45c7-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:36:52 SGT 2019:
+Shutting down instance 0b5d45c7-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:36:53 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance 721c465f-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:36:58 SGT 2019:
+Shutting down instance 721c465f-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:36:58 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance ef6b46f7-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:37:05 SGT 2019:
+Shutting down instance ef6b46f7-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:37:05 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance d5b5c7b6-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:37:11 SGT 2019:
+Shutting down instance d5b5c7b6-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:37:11 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance 45eec84e-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:37:18 SGT 2019:
+Shutting down instance 45eec84e-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:37:18 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance ccb7c8e6-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:37:25 SGT 2019:
+Shutting down instance ccb7c8e6-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:37:25 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance 997989bd-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:37:30 SGT 2019:
+Shutting down instance 997989bd-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:37:30 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance 96bc8a55-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 04 17:37:36 SGT 2019:
+Shutting down instance 96bc8a55-016e-d043-e8f2-00000a852f48 on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+----------------------------------------------------------------
+Wed Dec 04 17:37:36 SGT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance aa8f8aed-016e-d043-e8f2-00000a852f48 
+on database directory C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master\__test_database_default with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/CHENGJOO/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\CHENGJOO\JPA\kafka-connect-jdbc-master
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
