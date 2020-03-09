@@ -27,6 +27,8 @@ import java.math.BigDecimal;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
 
@@ -162,8 +164,31 @@ public class TimestampIncrementingCriteria {
   ) throws SQLException {
     Timestamp beginTime = values.beginTimetampValue();
     Timestamp endTime = values.endTimetampValue();
-    stmt.setTimestamp(1, beginTime, DateTimeUtils.getTimeZoneCalendar(timeZone));
-    stmt.setTimestamp(2, endTime, DateTimeUtils.getTimeZoneCalendar(timeZone));
+    Calendar beginCal = Calendar.getInstance();
+    beginCal.setTimeInMillis(beginTime.getTime());
+    beginCal.setTimeZone(timeZone);
+    
+    Calendar endCal = Calendar.getInstance();
+    endCal.setTimeInMillis(endTime.getTime());
+    endCal.setTimeZone(timeZone);
+    
+    SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+    String beginTimeStr = sdf.format(beginCal.getTime());
+    String endTimeStr = sdf.format(endCal.getTime());
+     
+    int noOfCols = timestampColumns.size();
+    int index = 1;
+    for (int i = 0; i < noOfCols; i++) {
+ 
+      //stmt.setTimestamp(index, beginTime, c);
+      //index++;
+      //stmt.setTimestamp(index, endTime, DateTimeUtils.getTimeZoneCalendar(timeZone));
+      //index++;
+      stmt.setString(index, beginTimeStr);
+      index++;
+      stmt.setString(index, endTimeStr);
+      index++;
+    }
     log.debug("Executing prepared statement with timestamp value = {} end time = {}",
         DateTimeUtils.formatTimestamp(beginTime, timeZone),
         DateTimeUtils.formatTimestamp(endTime, timeZone)
@@ -295,14 +320,14 @@ public class TimestampIncrementingCriteria {
     // We should capture both id = 22 (an update) and id = 23 (a new row)
     builder.append(" WHERE ");
     coalesceTimestampColumns(builder);
-    builder.append(" < ? AND ((");
+    builder.append(" < to_date(?,'DD-MM-YYYY HH24:MI:SS') AND ((");
     coalesceTimestampColumns(builder);
-    builder.append(" = ? AND ");
+    builder.append(" = to_date(?,'DD-MM-YYYY HH24:MI:SS') AND ");
     builder.append(incrementingColumn);
     builder.append(" > ?");
     builder.append(") OR ");
     coalesceTimestampColumns(builder);
-    builder.append(" > ?)");
+    builder.append(" >= to_date(?,'DD-MM-YYYY HH24:MI:SS')");
     builder.append(" ORDER BY ");
     coalesceTimestampColumns(builder);
     builder.append(",");
@@ -313,7 +338,7 @@ public class TimestampIncrementingCriteria {
   protected void incrementingWhereClause(ExpressionBuilder builder) {
     builder.append(" WHERE ");
     builder.append(incrementingColumn);
-    builder.append(" > ?");
+    builder.append(" >= ?");
     builder.append(" ORDER BY ");
     builder.append(incrementingColumn);
     builder.append(" ASC");
@@ -323,22 +348,22 @@ public class TimestampIncrementingCriteria {
     if (timestampColumns.size() == 1) {
       builder.append(" WHERE ");
       coalesceTimestampColumns(builder);
-      builder.append(" >= ? AND ");
+      builder.append(" >= to_date(?,'DD-MM-YYYY HH24:MI:SS') AND ");
       coalesceTimestampColumns(builder);
-      builder.append(" < ? ORDER BY ");
+      builder.append(" <= to_date(?,'DD-MM-YYYY HH24:MI:SS') ORDER BY ");
       coalesceTimestampColumns(builder);
       builder.append(" ASC");
     } else {
-      builder.append(" WHERE ");
+      builder.append(" WHERE ( ");
       int noOfCol = timestampColumns.size() - 1;
       for (int i = 0; i < timestampColumns.size(); i++) {
         builder.append(timestampColumns.get(i));
-        builder.append(" >= ? AND ");
+        builder.append(" >= to_date(?,'DD-MM-YYYY HH24:MI:SS') AND ");
         builder.append(timestampColumns.get(i));
         if (i == noOfCol) {
-          builder.append(" < ? ORDER BY ");
+          builder.append(" <= to_date(?,'DD-MM-YYYY HH24:MI:SS') ORDER BY ");
         } else {
-          builder.append(" < ? OR ");
+          builder.append(" <= to_date(?,'DD-MM-YYYY HH24:MI:SS') OR ( ");
         }
       }
       builder.appendList().delimitedBy(",").of(timestampColumns);
